@@ -1,38 +1,123 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+body {
+  font-family: "Karla", sans-serif; 
+   margin: 0;
+   min-width:1000px;
+ }
+ 
+ .hdr{
+   display:flex;
+   align-content:center;
+   min-width:600px;
+   background: linear-gradient(90deg, #672280 1.18%,  #A626D3 100%);
+   color:white;
+   font-size:21px;
+ 
+ }
+ 
+ .mem{
+   scale:0.7;
+   margin-left:3%;;
+ }
+ 
+ .rd{
+ 
+   display:flex;
+   align-content:center;
+   margin-top:6%;
+   margin-left:15%;
+   margin-right:15%;
+   
+   flex-direction:row;
+   justify-content: space-between;
+     
+ }
+ 
+ .r{
+   min-width:230px;
+   min-height:35px;
+   font-size:15px;
+   border-radius:5px;
+   border: 1px solid #D5D4D8;
+   padding-left:11px;
+ }
+ 
+ .bt{
+ 
+ min-width:488px;
+ text-align: center;
+   margin-top:4%;
+   background: linear-gradient(90deg, #672280 1.18%,  #A626D3 100%);
+   color:white;
+   margin-right:15%;
+   margin-left:15%;
+   padding-top:13px;
+   padding-bottom:13px;
+   border-radius:10px;
+   
+   
+   
+   
+   
+ 
+   
+ }
+ 
+ .x{
+ 
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+   margin-top:2%;
+   height:450px;
+   border:solid;
+   border-color:#d6d6d6;
+   border-width:2px;
+ 
+   
+ 
+   
+ }
+ .bt:hover{
+   cursor:pointer;
+   opacity:0.8
+ }
+ 
+ .mi{
+ 
+   position:relative;
+ }
+ 
+ .mm{
+   position:absolute;
+   text-align:center;
+  margin-left: 25%;
+   margin-right:25%;
+   width:50%;
+   font-family: impact, sans-serif; 
+   font-size: 2em; 
+   text-transform: uppercase;  
+   color: white; 
+   letter-spacing: 1px;
+   padding:2px;
+   text-shadow:
+         2px 2px 0 #000,
+         -2px -2px 0 #000,
+         2px -2px 0 #000,
+         -2px 2px 0 #000,
+         0 2px 0 #000,
+         2px 0 0 #000,
+         0 -2px 0 #000,
+         -2px 0 0 #000,
+         2px 2px 5px #000;
+  
+ }
+ 
+ 
+ .mbottom {
+     bottom: 0;
+ }
+ 
+ .mtop {
+     top: 0;
+ }
